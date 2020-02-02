@@ -1,0 +1,29 @@
+.heart {
+    width: 100px;
+    height: 100px;
+    background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+    background-position: 0 0;
+    position: absolute;
+        left: 44%;
+        top: 30%;
+}
+
+.heart:hover {
+    background-position: -2800px 0;
+    transition: background 1s steps(28);
+}
+
+.star {
+    width: 70px;
+    height: 45px;
+    position: absolute;
+        left: 45%;
+        top: 45%;
+    background: url(https://cssanimation.rocks/images/posts/steps/twitter_fave.png);
+    background-position: 0 0;
+}
+
+.star:hover {
+    background-position: -3520px 0;
+    transition: background 1s steps(55);
+}
